@@ -12,7 +12,7 @@
 - **むしろ俺のオススメはこれだぜ** を知りたい
 
 ---
-## 1.タイピング
+## 1.タイピング(e-typing)
 
 - 闇雲に練習しない！その方法が正しいか考える
     - [ホームポジションで入力するための指の動かし方を覚える](https://azby.fmworld.net/usage/lesson/keyboard/typing/basic/roma.html)
@@ -28,6 +28,7 @@
 
 - [十字キーが小さいし、Controlキーを使用する](https://gori.me/mac/mac-tips/16350)
     ![mac_keyboard.png](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/mac_keyboard.png)
+
     - Control + b,f,p,n,a,e(カーソル移動)
     - Control + h,d,a→k(削除)
 
@@ -44,27 +45,24 @@
     - [コードを書くときは、Vimキーバインドを使う](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 
 ---
-## 4.ブラウザ
+## 4.[peco](https://github.com/peco/peco#demo)
+
+- control+r のヒストリー検索で有効にするとコマンドラインの操作が快適に
+
+---
+## 5.ブラウザ
 
 - [PCはVivaldi](https://vivaldi.com/ja/)
     - Chromium系のブラウザで動作も安定
     - ジェスチャー動作、履歴検索、サイドバーのウェブパネルと機能豊富
     ![vivaldi_sample.png](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/vivaldi_sample.png)
+
 - [スマホはBrave](https://play.google.com/store/apps/details?id=com.brave.browser&hl=ja)
     - Chromium系
-    - タブ切り替えが画面下側にある
     - 広告を完全ブロック、広告を見るとトークンがもらえる
     - [University Study Finds Adblock Plus Could Save 40 Percent Network Bandwidth](https://www.silicon.co.uk/e-marketing/adblock-plus-adblocking-network-traffic-172245)
+    - タブ切り替えが画面下側にある
     ![brave_sp.jpg](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/brave_sp.jpg)
-
----
-## 5.自作パソコン
-
-- メモリ、CPU、マザーボード、電源、SSDを規格を確かめながら組むことでハードウェアが身近なものに
-
-- OSはデュアルブートで、Ubuntu,Windows
-- ベアボーンのサイズ感が魅力的過ぎて、[DeskMini A300](https://www.asrock.com/nettop/AMD/DeskMini%20A300%20Series/index.jp.asp) に換装
-![deskmini_a300_compare_mbp.jpg](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/deskmini_a300_compare_mbp.jpg)
 
 ---
 ## 6.本
@@ -108,28 +106,7 @@
     ![packet_tracer_campass_net.png](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/packet_tracer_campass_net.png)
 
 ---
-## 10.[peco](https://github.com/peco/peco#demo)
-
-- control+r のヒストリー検索で有効にするとコマンドラインの操作が快適に
-
----
-## 11.左右分離キーボード
-
-- [価格的に入門編のKinesis Freestyle2 Keyboardを購入](https://www.amazon.co.jp/dp/B009ZNBJBM/ref=cm_sw_r_tw_dp_U_x_2BOVDbY5G1XQJ)
-    - 肩が開くので、こりがなくなった
-
-- [パームレストも併用すると手首の、こりもなくなった](https://matsunosuke.jp/wood-palm-rest/)
-    - メルカリでオーダーカットで作ってくれる人に頼んだ
-
----
-## 12.デュアルディスプレイ
-
-- 自宅にもぜひ
-
-- 首を曲げなくていい高さにおくといい感じ
-
----
-# 13.[Quora](https://jp.quora.com)
+# 10.[Quora](https://jp.quora.com)
 
 - 回答の質の高いyahoo知恵袋
 
@@ -140,12 +117,37 @@
     - [ディープラーニングの研究が進めばAIのブラックボックス問題は解決しますか？](https://qr.ae/TWPomi)
 
 ---
-## 14.ライフログ
+## 11.ライフログ
 
 - [Pocket](https://app.getpocket.com) → Twitter → [IFTTT](https://ifttt.com) → Evernote
     - 触れた情報への印象を残し、検索可能にする
     - 情報メタボにならない！
     ![life_log.png](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/life_log.png)
+
+---
+## 12.自作パソコン
+
+- メモリ、CPU、マザーボード、電源、SSDを規格を確かめながら組むことでハードウェアが身近なものに
+
+- OSはデュアルブートで、Ubuntu,Windows
+- ベアボーンのサイズ感が魅力的過ぎて、[DeskMini A300](https://www.asrock.com/nettop/AMD/DeskMini%20A300%20Series/index.jp.asp) に換装
+![deskmini_a300_compare_mbp.jpg](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/deskmini_a300_compare_mbp.jpg)
+
+---
+## 13.左右分離キーボード
+
+- [価格的に入門編のKinesis Freestyle2 Keyboardを購入](https://www.amazon.co.jp/dp/B009ZNBJBM/ref=cm_sw_r_tw_dp_U_x_2BOVDbY5G1XQJ)
+    - 肩が開くので、こりがなくなった
+
+- [パームレストも併用すると手首の、こりもなくなった](https://matsunosuke.jp/wood-palm-rest/)
+    - メルカリでオーダーカットで作ってくれる人に頼んだ
+
+---
+## 14.デュアルディスプレイ
+
+- 自宅にもぜひ
+
+- 首を曲げなくていい高さにおくといい感じ
 
 ---
 ## 15.心構え
