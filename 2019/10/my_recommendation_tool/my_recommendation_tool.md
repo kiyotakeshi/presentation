@@ -16,6 +16,7 @@
 
 - 闇雲に練習しない！その方法が正しいか考える
     - [ホームポジションで入力するための指の動かし方を覚える](https://azby.fmworld.net/usage/lesson/keyboard/typing/basic/roma.html)
+        - ![e_typing_home_position.png](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/e_typing_home_position.png)
 
     - [ホームポジションで単語を入力する](https://www.e-typing.ne.jp/roma/variety/business.asp)
 
