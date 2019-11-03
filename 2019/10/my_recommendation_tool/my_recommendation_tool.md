@@ -19,6 +19,7 @@
         - ![e_typing_home_position.png](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/e_typing_home_position.png)
 
     - [ホームポジションで単語を入力する](https://www.e-typing.ne.jp/roma/variety/business.asp)
+        - ![e_typing_practice.png](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/e_typing_practice.png)
 
 - 自己流フォームを絶対に矯正する必要はないと思う
 
@@ -26,6 +27,7 @@
 ## 2.Macショートカット
 
 - [十字キーが小さいし、Controlキーを使用する](https://gori.me/mac/mac-tips/16350)
+    - ![mac_keyboard.png](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/mac_keyboard.png)
     - Control + b,f,p,n,a,e(カーソル移動)
     - Control + h,d,a→k(削除)
 
@@ -47,12 +49,13 @@
 - [PCはVivaldi](https://vivaldi.com/ja/)
     - Chromium系のブラウザで動作も安定
     - ジェスチャー動作、履歴検索、サイドバーのウェブパネルと機能豊富
-
+    - ![vivaldi_sample.png](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/vivaldi_sample.png)
 - [スマホはBrave](https://play.google.com/store/apps/details?id=com.brave.browser&hl=ja)
     - Chromium系
     - タブ切り替えが画面下側にある
     - 広告を完全ブロック、広告を見るとトークンがもらえる
     - [University Study Finds Adblock Plus Could Save 40 Percent Network Bandwidth](https://www.silicon.co.uk/e-marketing/adblock-plus-adblocking-network-traffic-172245)
+    - ![brave_sp.jpg](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/brave_sp.jpg)
 
 ---
 ## 5.自作パソコン
@@ -61,6 +64,7 @@
 
 - OSはデュアルブートで、Ubuntu,Windows
 - ベアボーンのサイズ感が魅力的過ぎて、[DeskMini A300](https://www.asrock.com/nettop/AMD/DeskMini%20A300%20Series/index.jp.asp) に換装
+- ![deskmini_a300_compare_mbp.jpg](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/deskmini_a300_compare_mbp.jpg)
 
 ---
 ## 6.本
@@ -111,8 +115,7 @@
 ## 11.左右分離キーボード
 
 - [価格的に入門編のKinesis Freestyle2 Keyboardを購入](https://www.amazon.co.jp/dp/B009ZNBJBM/ref=cm_sw_r_tw_dp_U_x_2BOVDbY5G1XQJ)
-
-- 肩が開くので、こりがなくなった
+    - 肩が開くので、こりがなくなった
 
 - [パームレストも併用すると手首の、こりもなくなった](https://matsunosuke.jp/wood-palm-rest/)
     - メルカリでオーダーカットで作ってくれる人に頼んだ
