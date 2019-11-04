@@ -103,7 +103,7 @@
         - CCNAレベルのネットワークの知識を手を動かして学べる
 
 ---
-## 9.[Packet Traser](https://www.netacad.com/ja/courses/packet-tracer)
+## 9.[Packet Tracer](https://www.netacad.com/ja/courses/packet-tracer)
 
 - Ciscoが公式に提供しているネットワーク機器のシミュレータ
     - スイッチやルータをコマンドで設定して ping が通るかを確認する
