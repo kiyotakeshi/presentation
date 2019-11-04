@@ -16,10 +16,12 @@
 
 - 闇雲に練習しない！その方法が正しいか考える
     - [ホームポジションで入力するための指の動かし方を覚える](https://azby.fmworld.net/usage/lesson/keyboard/typing/basic/roma.html)
-    ![e_typing_home_position.png](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/e_typing_home_position.png)
+
+    ![e_typing_home_position.png](assets/images/e_typing_home_position.png)
 
     - [ホームポジションで単語を入力する](https://www.e-typing.ne.jp/roma/variety/business.asp)
-    ![e_typing_practice.png](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/e_typing_practice.png)
+
+    ![e_typing_practice.png](assets/images/e_typing_practice.png)
 
 - 自己流フォームを絶対に矯正する必要はないと思う
 
@@ -27,7 +29,8 @@
 ## 2.Macショートカット
 
 - [十字キーが小さいし、Controlキーを使用する](https://gori.me/mac/mac-tips/16350)
-    ![mac_keyboard.png](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/mac_keyboard.png)
+
+    ![mac_keyboard.png](assets/images/mac_keyboard.png)
 
     - Control + b,f,p,n,a,e(カーソル移動)
     - Control + h,d,a→k(削除)
@@ -55,14 +58,16 @@
 - [PCはVivaldi](https://vivaldi.com/ja/)
     - Chromium系のブラウザで動作も安定
     - ジェスチャー動作、履歴検索、サイドバーのウェブパネルと機能豊富
-    ![vivaldi_sample.png](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/vivaldi_sample.png)
+
+    ![vivaldi_sample.png](assets/images/vivaldi_sample.png)
 
 - [スマホはBrave](https://play.google.com/store/apps/details?id=com.brave.browser&hl=ja)
     - Chromium系
     - 広告を完全ブロック、広告を見るとトークンがもらえる
     - [University Study Finds Adblock Plus Could Save 40 Percent Network Bandwidth](https://www.silicon.co.uk/e-marketing/adblock-plus-adblocking-network-traffic-172245)
     - タブ切り替えが画面下側にある
-    ![brave_sp.jpg](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/brave_sp.jpg)
+
+    ![brave_sp.jpg](assets/images/brave_sp.jpg)
 
 ---
 ## 6.本
@@ -103,7 +108,8 @@
 - Ciscoが公式に提供しているネットワーク機器のシミュレータ
     - スイッチやルータをコマンドで設定して ping が通るかを確認する
     - フレームにVlanタグをつけるところやパケットの中身まで見れる
-    ![packet_tracer_campass_net.png](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/packet_tracer_campass_net.png)
+
+    ![packet_tracer_campass_net.png](assets/images/packet_tracer_campass_net.png)
 
 ---
 # 10.[Quora](https://jp.quora.com)
@@ -122,7 +128,8 @@
 - [Pocket](https://app.getpocket.com) → Twitter → [IFTTT](https://ifttt.com) → Evernote
     - 触れた情報への印象を残し、検索可能にする
     - 情報メタボにならない！
-    ![life_log.png](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/life_log.png)
+
+    ![life_log.png](assets/images/life_log.png)
 
 ---
 ## 12.自作パソコン
@@ -131,7 +138,8 @@
 
 - OSはデュアルブートで、Ubuntu,Windows
 - ベアボーンのサイズ感が魅力的過ぎて、[DeskMini A300](https://www.asrock.com/nettop/AMD/DeskMini%20A300%20Series/index.jp.asp) に換装
-![deskmini_a300_compare_mbp.jpg](https://github.com/kiyotakeshi/presentation/blob/my_recommendation/2019/10/my_recommendation_tool/assets/images/deskmini_a300_compare_mbp.jpg)
+
+![deskmini_a300_compare_mbp.jpg](assets/images/deskmini_a300_compare_mbp.jpg)
 
 ---
 ## 13.左右分離キーボード
