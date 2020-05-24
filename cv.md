@@ -12,9 +12,13 @@
 
 ## 概要
 
-- NWエンジニアとして大規模オンプレの保守運用の経験が1年
+- NWエンジニアとして大規模オンプレの保守運用
 
-- Ansibleを使用したdev,stg環境の構築、監視の整備の経験が半年
+- Ansibleを使用したdev,stg環境の構築、監視の整備
+
+- マイクロサービスのアプリケーションの動作基盤を、Terraformで構築
+
+- Spring MVCを使用した応募審査システムの機能追加
 
 ## 主な業務経歴
 
@@ -36,7 +40,17 @@
 
 - Redisの負荷試験、性能調査を実施
 
-- dev環境の構築方法からテストの実施方法のドキュメントを整備
+### マイクロサービスのアプリケーションの動作基盤を、Terraformで構築
+
+- EKS on Fargate でマイクロサービスのPodを動作する環境をTerraformにて新規構築
+    - ALB Ingress Controllerと必要なPodにIRSA(IAM Role for Service Account)を設定
+    - aws-auth(ConfigMap)を編集し、クラスタの操作権限を調整
+
+- 社内でのマイクロサービス、Kubernetesの解説、ドキュメントの整備
+
+### Spring MVCを使用した応募審査システムの機能追加
+
+- エンドポイントの追加開発
 
 ## 触れたことのある技術
 
@@ -46,11 +60,11 @@ CentOS6/7 | VMware ESXi 5/6 | Ubuntu18/19
 
 ### ネットワーク
 
-Cisco(Packet Tracer) | Juniper(SRX) | PaloAlto(PA) | Packet Tracer
+Packet Tracer | Juniper(SRX) | PaloAlto(PA)
 
 ### 言語
 
-Java | Golang | Python | Shell script(bash) | Power Shell
+Java(業務でメインに使用している言語) | Golang | Python | Shell script(bash) | Power Shell
 
 ### フレームワーク等
 
@@ -64,7 +78,7 @@ MySQL | Redis | Memcached
 
 #### AWS
 
-VPC | S3 | ELB | EC2 | ECS | Route53 | IAM | RDS(MySQL) | DynamoDB | Cloud Watch
+VPC | S3 | ELB | EC2 | ECS | Route53 | IAM | RDS(MySQL,Postgres) | DynamoDB | Cloud Watch | EKS | ECR | ACM | SES
 
 #### GCP
 
@@ -76,7 +90,7 @@ GitHub | BitBucket | DataDog
 
 ### その他
 
-Terraform | Docker | Vagrant | Jenkins | Ansible | nginx | Apache | Tomcat | Prometheus | Grafana | BIND | Postfix | Slack | Jira | Confluence | Backlog | Kibera | 自作PC(Ryzen5 2400G) | Raspberry pi 4 model B
+Terraform | Docker | Vagrant | Jenkins | PlantUML | Ansible | nginx | Apache | Tomcat | Prometheus | Grafana | BIND | Postfix | Slack | Jira | Confluence | Bamboo | Backlog | Kibera | 自作PC(Ryzen5 2400G) | Raspberry pi 4 model B
 
 ## 普段の開発環境
 
