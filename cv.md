@@ -1,14 +1,13 @@
-# 業務経歴書
+# 経歴書
 
 ## 基本情報
 
-|key|value|
-|----|----|
-|Twitter|[@ponkan1219](https://twitter.com/ponkan1219) |
-|Qiita|[@ponkan1219](https://qiita.com/ponkan1219)|
-|GitHub|[ponkan1219](https://github.com/kiyotakeshi)|
-|Scrapbox|[非エンジニア領域のメモ置き場](https://scrapbox.io/ponkan1219/)|
-|英語力|TOEIC720点|
+- [GitHub](https://github.com/kiyotakeshi)
+- [はてなブログ](https://ponkan1219.hateblo.jp/)
+- [Speaker Deck](https://speakerdeck.com/kiyotakeshi69/)
+- [技術ブログ](https://speakerdeck.com/kiyotakeshi69/)
+- [Qiita](https://qiita.com/ponkan1219)
+- [Twitter](https://twitter.com/ponkan1219)
 
 ## 主な業務経歴
 
@@ -87,7 +86,37 @@
 
 - LinaC level 1
 
+- TOEIC 720点
+
+## ポートフォリオ
+
+### [Todo アプリケーション](https://www.bullstechnology.com/)
+
+- [リポジトリ](https://github.com/kiyotakeshi/todo)
+- テストコードを元に、 [API仕様書](https://www.bullstechnology.com/api) を自動生成する仕組みである、 RESTDocs を使用したバックエンド実装
+
+- ES6 の表現で記述した JS により fetch することでバックエンドのAPIをコールする仕組みを実装
+
+- これらをコンテナ化に対応した状態でローカル開発
+
+- git の tag の push に反応して GitHub Actions による自動ビルドと jar の生成を実行
+
+- フロントの実装を React にし、
+バックエンドに認証を導入することを検討し開発中
+
+### [Todo アプリケーションの AWS デプロイ](https://github.com/kiyotakeshi/todo-aws)
+
+- Terraform により、Todo アプリをデプロイするAWS の環境を定義
+
+### [Todo アプリケーションの Vultr デプロイ](https://github.com/kiyotakeshi/todo-vultr)
+
+- Terraform により、Todo アプリをデプロイする Vultr の環境を定義
+    - AWSだと個人利用としてはコストが割高なため
+    - Vultr は海外VPS でありながら東京リージョンがある
+
 ## 触れたことのある技術
+
+- [StackShare](https://stackshare.io/kiyotakeshi/following)を参照
 
 ### OS
 
@@ -99,7 +128,7 @@ Packet Tracer | Juniper(SRX) | PaloAlto(PA)
 
 ### 言語
 
-Java(業務でメインに使用している言語) | Golang | Python | Shell script(bash) | Power Shell
+Java(業務でメインに使用している言語) | Kotlin | JavaScript(TypeScript) | Golang | Python | Shell script(bash) | Power Shell
 
 ### フレームワーク等
 
@@ -107,7 +136,7 @@ Spring Boot
 
 ### RDB/NoSQL
 
-MySQL | Postgres | Redis | Memcached | Elasticsearch
+MySQL | Postgres | Redis | Memcached | Elasticsearch | MongoDB
 
 ### クラウド
 
@@ -127,7 +156,7 @@ GitHub | BitBucket | DataDog
 
 ### その他
 
-Terraform | Docker | Vagrant | Jenkins | PlantUML | Ansible | nginx | Apache | Tomcat | Prometheus | Grafana | BIND | Postfix | Slack | Jira | Confluence | Bamboo | Backlog | Kibera | 自作PC(Ryzen5 2400G) | Raspberry pi 4 model B
+Terraform | Docker | Kubernetes | Helm | Vagrant | Jenkins | Postman | PlantUML | Ansible | nginx | Apache | Tomcat | Prometheus | Grafana | BIND | Postfix | Slack | Jira | Confluence | Bamboo | Backlog | Kibera | 自作PC(Ryzen5 2400G) | Raspberry pi 4 model B | Vultr
 
 ## 普段の開発環境
 
