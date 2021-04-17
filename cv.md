@@ -90,10 +90,11 @@
 
 ## ポートフォリオ
 
-### [Todo アプリケーション](https://www.bullstechnology.com/)
+### [停止中: Todo アプリケーション](https://www.bullstechnology.com/)
 
-- [リポジトリ](https://github.com/kiyotakeshi/todo)
-- テストコードを元に、 [API仕様書](https://www.bullstechnology.com/api) を自動生成する仕組みである、 RESTDocs を使用したバックエンド実装
+- [リポジトリ](https://github.com/kiyotakeshi/todo-monolithic)
+
+- テストコードを元に、 [停止中: API仕様書](https://www.bullstechnology.com/api) を自動生成する仕組みである、 RESTDocs を使用したバックエンド実装
 
 - ES6 の表現で記述した JS により fetch することでバックエンドのAPIをコールする仕組みを実装
 
@@ -102,13 +103,19 @@
 - git の tag の push に反応して GitHub Actions による自動ビルドと jar の生成を実行
 
 - フロントの実装を React にし、
-バックエンドに認証を導入することを検討し開発中
+バックエンドに認証を導入することを検討し開発中(WIP)
+    - [Front リポジトリ](https://github.com/kiyotakeshi/todo-ui)
+    - [Backend リポジトリ](https://github.com/kiyotakeshi/todo-api)
 
-### [Todo アプリケーションの AWS デプロイ](https://github.com/kiyotakeshi/todo-aws)
+### Todo アプリケーションの AWS デプロイ
+
+- [リポジトリ](https://github.com/kiyotakeshi/todo-aws)
 
 - Terraform により、Todo アプリをデプロイするAWS の環境を定義
 
-### [Todo アプリケーションの Vultr デプロイ](https://github.com/kiyotakeshi/todo-vultr)
+### Todo アプリケーションの Vultr デプロイ
+
+- [リポジトリ](https://github.com/kiyotakeshi/todo-vultr)
 
 - Terraform により、Todo アプリをデプロイする Vultr の環境を定義
     - AWSだと個人利用としてはコストが割高なため
@@ -116,7 +123,7 @@
 
 ## 触れたことのある技術
 
-- [StackShare](https://stackshare.io/kiyotakeshi/following)を参照
+- [StackShare](https://stackshare.io/kiyotakeshi/following) を参照
 
 ### OS
 
@@ -132,7 +139,7 @@ Java(業務でメインに使用している言語) | Kotlin | JavaScript(TypeSc
 
 ### フレームワーク等
 
-Spring Boot
+Spring Boot | React | Redux
 
 ### RDB/NoSQL
 
