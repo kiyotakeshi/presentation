@@ -3,9 +3,12 @@
 ## 基本情報
 
 - [GitHub](https://github.com/kiyotakeshi)
+- [前職の GitHub](https://github.com/kiyotake-tagbangers)
+- [現職の GitHub](https://github.com/KiyotaTakeshi)
 - [はてなブログ](https://ponkan1219.hateblo.jp/)
 - [Speaker Deck](https://speakerdeck.com/kiyotakeshi69/)
-- [技術ブログ](https://speakerdeck.com/kiyotakeshi69/)
+- [技術情報発信1](https://blog.tagbangers.co.jp/ja/author/kiyotake)
+- [技術情報発信2](https://www.gxp-group.co.jp/gplus/?p=5334)
 - [Qiita](https://qiita.com/ponkan1219)
 - [Twitter](https://twitter.com/ponkan1219)
 
@@ -33,14 +36,14 @@
 
 - Terraform を使用
 
-- EKS on Fargate でマイクロサービスで作られたアプリケーションを動作させる環境を Terraform にて新規構築
+- Terraform を使用して、マイクロサービスで作られたアプリケーションを動作させる環境として EKS on Fargate を新規構築
     - 必要なAWSコンポーネントを作成
     - ALB Ingress Controller と必要な Pod に IRSA(IAM Role for Service Account) を設定
     - aws-auth(ConfigMap)を編集し、クラスタの操作権限を調整
 
 - 社内でのマイクロサービス、Kubernetesの解説、ドキュメントの整備
 
-### Spring MVCを使用した応募審査システムの機能追加
+### Spring MVC を使用した応募審査システムの機能追加
 
 - エンドポイントの追加開発
 
@@ -76,6 +79,52 @@
 
 - GitHub Actions を使用した CICD の構築
 
+### .NET Core(3.1系) を使用した BFF(json を返す API サーバ)の新規開発
+
+- Web API のエンドポイントの設計
+
+- OpenAPI を使用したエンドポイントの記載
+
+- CQRS, Mediator pattern を使用
+
+- .NET Core を使用した実装
+
+### .NET Core(3.1系) を使用した BFF の Azure へのデプロイ
+
+- マルチステージビルドを使用したアプリケーションのコンテナ化
+
+- 他サービスとの疎通のための設定の調整
+
+### Spring Boot で開発された Batch アプリの機能追加
+
+### GCP の Cloud Run の検証
+
+- [Spring Boot でサンプルアプリケーション](https://github.com/KiyotaTakeshi/gcp-backend-sample) を作成し、コミットすると Cloud Native Buildpacks で Docker イメージをビルドしデプロイ
+
+- Cloud Run から Cloud SQL に疎通するための Serverless VPC Connector などは [terraform で構築](https://github.com/KiyotaTakeshi/gcp-terraform)
+
+### 社内での勉強会で [roadmap.sh](https://roadmap.sh/) の [Backend Developer](https://roadmap.sh/backend) を基にサンプルコードを用意してハンズオンを実施
+
+- [MongoDB のハンズオン, MongoDB * Spring のサンプル](https://github.com/kiyotakeshi/spring-mongo)
+
+- [jwt を使用した認証、認可のサンプル](https://github.com/kiyotakeshi/jwt-authentication)
+
+- [jwt を使用した認証、認可のサンプル2](https://github.com/KiyotaTakeshi/spring-security-postgres)
+
+- [Java17 * Basic認証のサンプル](https://github.com/KiyotaTakeshi/basic-authentication-java17)
+
+- [Bcypt Encoder のハンズオン](https://github.com/kiyotakeshi/spring-security-encoder-playground)
+
+- [Keycloak を使用した OIDC のサンプル](https://github.com/kiyotakeshi/keycloak-resource-server)
+
+- [Spring * Redis](https://github.com/kiyotakeshi/spring-redis-playground)
+
+- [Spring * Redis * RDB * Testcontainers](https://github.com/kiyotakeshi/spring-rdb-redis-testcontainers)
+
+- [Spring * Kafka によるイベント駆動型アーキテクチャのサンプル](https://github.com/kiyotakeshi/kafka-spring-sample)
+
+- [Elasticsearch のハンズオン](https://github.com/KiyotaTakeshi/es-sample)
+
 ## 保有資格
 
 - AWS Certified Solutions Architect - Professional
@@ -90,9 +139,7 @@
 
 ## ポートフォリオ
 
-### [停止中: Todo アプリケーション](https://www.bullstechnology.com/)
-
-- [リポジトリ](https://github.com/kiyotakeshi/todo-monolithic)
+### [Todo アプリケーション](https://github.com/kiyotakeshi/todo-monolithic)
 
 - テストコードを元に、 [停止中: API仕様書](https://www.bullstechnology.com/api) を自動生成する仕組みである、 RESTDocs を使用したバックエンド実装
 
@@ -102,74 +149,16 @@
 
 - git の tag の push に反応して GitHub Actions による自動ビルドと jar の生成を実行
 
-- フロントの実装を React にし、
-バックエンドに認証を導入することを検討し開発中(WIP)
+- フロントとバックエンドを分離したもの
     - [Front リポジトリ](https://github.com/kiyotakeshi/todo-ui)
     - [Backend リポジトリ](https://github.com/kiyotakeshi/todo-api)
 
-### Todo アプリケーションの AWS デプロイ
+- [terraform を使用した AWS デプロイ](https://github.com/kiyotakeshi/todo-aws)
 
-- [リポジトリ](https://github.com/kiyotakeshi/todo-aws)
-
-- Terraform により、Todo アプリをデプロイするAWS の環境を定義
-
-### Todo アプリケーションの Vultr デプロイ
-
-- [リポジトリ](https://github.com/kiyotakeshi/todo-vultr)
-
-- Terraform により、Todo アプリをデプロイする Vultr の環境を定義
+- [terraform を使用した Vultr デプロイ](https://github.com/kiyotakeshi/todo-vultr)
     - AWSだと個人利用としてはコストが割高なため
     - Vultr は海外VPS でありながら東京リージョンがある
 
 ## 触れたことのある技術
 
 - [StackShare](https://stackshare.io/kiyotakeshi/following) を参照
-
-### OS
-
-CentOS6/7/8 | VMware ESXi 5/6 | Ubuntu18/19
-
-### ネットワーク
-
-Packet Tracer | Juniper(SRX) | PaloAlto(PA)
-
-### 言語
-
-Java(業務でメインに使用している言語) | Kotlin | JavaScript(TypeScript) | Golang | Python | Shell script(bash) | Power Shell
-
-### フレームワーク等
-
-Spring Boot | React | Redux
-
-### RDB/NoSQL
-
-MySQL | Postgres | Redis | Memcached | Elasticsearch | MongoDB
-
-### クラウド
-
-#### AWS
-
-VPC | S3 | ELB | EC2 | ECS(on EC2,Fargate) | Route53 | IAM | RDS(MySQL,Postgres) | DynamoDB | CloudWatch
-
-EKS(on Fargate) | ECR | ACM | SES | RDS Proxy | Lambda | SSM | Elastic Beanstalk | Elasticsearch Service | ElastiCache | SecretManager
-
-#### GCP
-
-VPC | GCS | Cloud Functions | Cloud Pub/Sub
-
-### SaaS/PaaS
-
-GitHub | BitBucket | DataDog
-
-### その他
-
-Terraform | Docker | Kubernetes | Helm | Vagrant | Jenkins | Postman | PlantUML | Ansible | nginx | Apache | Tomcat | Prometheus | Grafana | BIND | Postfix | Slack | Jira | Confluence | Bamboo | Backlog | Kibera | 自作PC(Ryzen5 2400G) | Raspberry pi 4 model B | Vultr
-
-## 普段の開発環境
-
-- Kinessiss Freestyle か REALFORCE TKL for Mac(R2TL-USVM-WH)
-
-- Visual Studio Code か IntelliJ
-    - コードを書くときは、vimのkeybind
-
-- コマンドラインは、zsh + peco
