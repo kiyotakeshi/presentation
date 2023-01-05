@@ -81,9 +81,7 @@
 
 ### .NET Core(3.1系) を使用した BFF(json を返す API サーバ)の新規開発
 
-- Web API のエンドポイントの設計
-
-- OpenAPI を使用したエンドポイントの記載
+- Web API のエンドポイントの設計、OpenAPI を使用したエンドポイントの記載
 
 - CQRS, Mediator pattern を使用
 
@@ -101,7 +99,7 @@
 
 - [Spring Boot でサンプルアプリケーション](https://github.com/KiyotaTakeshi/gcp-backend-sample) を作成し、コミットすると Cloud Native Buildpacks で Docker イメージをビルドしデプロイ
 
-- Cloud Run から Cloud SQL に疎通するための Serverless VPC Connector などは [terraform で構築](https://github.com/KiyotaTakeshi/gcp-terraform)
+- Cloud Run  から Cloud SQL に疎通するための Serverless VPC Connector などは [terraform で構築](https://github.com/KiyotaTakeshi/gcp-terraform)
 
 ### 社内での勉強会で [roadmap.sh](https://roadmap.sh/) の [Backend Developer](https://roadmap.sh/backend) を基にサンプルコードを用意してハンズオンを実施
 
@@ -124,6 +122,28 @@
 - [Spring * Kafka によるイベント駆動型アーキテクチャのサンプル](https://github.com/kiyotakeshi/kafka-spring-sample)
 
 - [Elasticsearch のハンズオン](https://github.com/KiyotaTakeshi/es-sample)
+
+### Ruby(3.1系),Rails(7系) を使用した json を返す API サーバの新規開発
+
+- Web API のエンドポイントの設計、OpenAPI を使用したエンドポイントの記載
+
+- app.diagrams.net(旧 draw.io)を使用した、データベースの設計、ER図の作成
+
+### 既存システムの決済サービスのリプレイスに関する開発
+
+- Spring Boot(2系)のアプリケーションで使用している決済代行会社のサービス終了に伴うリプレイス
+
+- FTP サーバーを使用したバッチ処理のテストコードを記載([mina-sshd](https://github.com/apache/mina-sshd)を使用)
+
+### 書類を管理システムの機能追加
+
+- Spring Boot(2系)のアプリケーション
+
+- 電子帳簿保存法の改正に伴い、書類の履歴やファイル名を検索できるように
+
+### WordPress で管理していたサイトを CloudFront * S3 による静的配信に移管
+
+- terraform で構築
 
 ## 保有資格
 
@@ -158,6 +178,14 @@
 - [terraform を使用した Vultr デプロイ](https://github.com/kiyotakeshi/todo-vultr)
     - AWSだと個人利用としてはコストが割高なため
     - Vultr は海外VPS でありながら東京リージョンがある
+
+### [Rails で API作成](https://github.com/kiyotakeshi/todo-monolithic)
+
+- [app.diagrams.net(旧 draw.io)を使用した、データベースの設計、ER図の作成](https://github.com/kiyotakeshi/library-ruby/blob/main/docs/er.drawio.png)
+
+- [OpenAPI で API 定義を記載](https://github.com/kiyotakeshi/library-ruby/blob/main/docs/openapi.yaml)
+
+- [RSpec を使用したテスト記載](https://github.com/kiyotakeshi/library-ruby/tree/main/spec)
 
 ## 触れたことのある技術
 
