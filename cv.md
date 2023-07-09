@@ -10,7 +10,6 @@
 - [技術情報発信1](https://blog.tagbangers.co.jp/ja/author/kiyotake)
 - [技術情報発信2](https://www.gxp-group.co.jp/gplus/?p=5334)
 - [Qiita](https://qiita.com/ponkan1219)
-- [Twitter](https://twitter.com/ponkan1219)
 
 ## 主な業務経歴
 
