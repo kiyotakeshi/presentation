@@ -3,80 +3,73 @@
 ## 基本情報
 
 - [GitHub](https://github.com/kiyotakeshi)
-- [前職の GitHub](https://github.com/kiyotake-tagbangers)
-- [現職の GitHub](https://github.com/KiyotaTakeshi)
-- [はてなブログ](https://ponkan1219.hateblo.jp/)
+- [Zenn](https://zenn.dev/kiyotatakeshi)
 - [Speaker Deck](https://speakerdeck.com/kiyotakeshi69/)
-- [技術情報発信1](https://blog.tagbangers.co.jp/ja/author/kiyotake)
-- [技術情報発信2](https://www.gxp-group.co.jp/gplus/?p=5334)
-- [Qiita](https://qiita.com/ponkan1219)
+
+- [前職の GitHub(更新していない)](https://github.com/kiyotake-tagbangers)
+- [現職の GitHub(更新していない)](https://github.com/KiyotaTakeshi)
+- [はてなブログ(更新していない)](https://ponkan1219.hateblo.jp/)
+- [Qiita(更新していない)](https://qiita.com/ponkan1219)
+- [前職でのテックブログ](https://blog.tagbangers.co.jp/ja/author/kiyotake.html)
+- [前職でのテックブログ](https://www.gxp-group.co.jp/gplus/?p=5334)
 
 ## 主な業務経歴
 
-### 大規模オンプレ現場でハードウェアの運用保守、NW機器(FW,LB)の設定変更(1年)
+現職での業務経歴
 
-- Jenkinsジョブにてファームウェアの適用(PowerCLIスクリプトを展開)
+### WIP
 
-- 通信要件に応じたFWの穴あけ、LBのVIP設定
+- hoge
 
-- yamlで記載されGit管理されたping監視の設定を変更
+## 前職での業務経歴 (新しいものから順に記載)
 
-- Confluenceに通信要件の対応に関する社内ルールのドキュメントを整備
+<details>
+<summary>前職での業務経歴</summary>
 
-### Ansibleを使用した Dev,Stg 環境の構築(半年)
+### WordPress で管理していたサイトを CloudFront * S3 による静的配信に移管
 
-- Itamae で管理されているdev環境を Ansible に置換
+- terraform で構築
+- ドメイン(レジストラ)の移管、Name server の変更
 
-- Stg環境のサーバ構築(Prometheus,Grafanaによる新規監視)
+### 書類管理システムの機能追加
 
-- Redis の負荷試験、性能調査を実施
+- Spring Boot(2系)のアプリケーション
 
-### マイクロサービスのアプリケーションの動作基盤(EKS)を構築
+- 電子帳簿保存法の改正に伴い、書類の履歴やファイル名を検索できるように
 
-- Terraform を使用
+### 既存システムの決済サービスのリプレイスに関する開発
 
-- Terraform を使用して、マイクロサービスで作られたアプリケーションを動作させる環境として EKS on Fargate を新規構築
-    - 必要なAWSコンポーネントを作成
-    - ALB Ingress Controller と必要な Pod に IRSA(IAM Role for Service Account) を設定
-    - aws-auth(ConfigMap)を編集し、クラスタの操作権限を調整
+- Spring Boot(2系)のアプリケーションで使用している決済代行会社のサービス終了に伴うリプレイス
 
-- 社内でのマイクロサービス、Kubernetesの解説、ドキュメントの整備
+- FTP サーバーを使用したバッチ処理のテストコードを記載([mina-sshd](https://github.com/apache/mina-sshd)を使用)
 
-### Spring MVC を使用した応募審査システムの機能追加
+### Ruby(3.1系),Rails(7系) を使用した json を返す API サーバの新規開発
 
-- エンドポイントの追加開発
+- Web API のエンドポイントの設計、OpenAPI を使用したエンドポイントの記載
 
-### 複数コンテナの動作基盤(Elastic Beanstalk)を構築
+- app.diagrams.net(旧 draw.io)を使用した、データベースの設計、ER図の作成
 
-- Terraform を使用
+### Spring Boot で開発された Batch アプリの機能追加
 
-- Amazon Linux2 Docker platform(旧 Multicontainer Docker platform) を構築
+### GCP の Cloud Run の検証
 
-### サーバーレスアプリケーションの動作基盤(Lambda,API Gateway)の構築
+- [Spring Boot でサンプルアプリケーション](https://github.com/KiyotaTakeshi/gcp-backend-sample) を作成し、コミットすると Cloud Native Buildpacks で Docker イメージをビルドしデプロイ
 
-- Terraform, Bref, Serverless Framework を使用
+- Cloud Run  から Cloud SQL に疎通するための Serverless VPC Connector などは [terraform で構築](https://github.com/KiyotaTakeshi/gcp-terraform)
 
-- チーム内で Terraform の知見を共有し、単一障害点になることを回避
+### 社内での勉強会で [roadmap.sh](https://roadmap.sh/) の [Backend Developer](https://roadmap.sh/backend) を基にサンプルコードを用意してハンズオンを実施
 
-### 複数コンテナの動作基盤(ECS)を構築
+- [MongoDB のハンズオン, MongoDB * Spring のサンプル](https://github.com/kiyotakeshi/spring-mongo)
 
-- Terraform を使用
+- [jwt を使用した認証、認可のサンプル](https://github.com/KiyotaTakeshi/spring-security-postgres)
 
-- CodeBuild を使用した CICD 環境も構築
+- [Java17 * Basic認証のサンプル](https://github.com/KiyotaTakeshi/basic-authentication-java17)
 
-### Amazon Linux2 への移行作業
+- [Bcypt Encoder のハンズオン](https://github.com/kiyotakeshi/spring-security-encoder-playground)
 
-- 既存サーバーの調査と移行後の動作の確認
+- [Spring * Kafka によるイベント駆動型アーキテクチャのサンプル](https://github.com/kiyotakeshi/kafka-spring-sample)
 
-### Side-car pattern の検証と既存アプリのコンテナ化
-
-- Tweleve Factor App にのっとったアプリケーションの修正
-    - 成果物を一つにし、設定を外部注入できるようにする
-    - ログを標準出力に出す
-
-- ECS on Fargate(Task, Service)の構築
-
-- GitHub Actions を使用した CICD の構築
+- [Elasticsearch のハンズオン](https://github.com/KiyotaTakeshi/es-sample)
 
 ### .NET Core(3.1系) を使用した BFF(json を返す API サーバ)の新規開発
 
@@ -92,57 +85,61 @@
 
 - 他サービスとの疎通のための設定の調整
 
-### Spring Boot で開発された Batch アプリの機能追加
+### 複数コンテナの動作基盤(ECS)を構築
 
-### GCP の Cloud Run の検証
+- Terraform を使用
 
-- [Spring Boot でサンプルアプリケーション](https://github.com/KiyotaTakeshi/gcp-backend-sample) を作成し、コミットすると Cloud Native Buildpacks で Docker イメージをビルドしデプロイ
+- CodeBuild を使用した CI/CD 環境も構築
 
-- Cloud Run  から Cloud SQL に疎通するための Serverless VPC Connector などは [terraform で構築](https://github.com/KiyotaTakeshi/gcp-terraform)
+### Side-car pattern の検証と既存アプリのコンテナ化
 
-### 社内での勉強会で [roadmap.sh](https://roadmap.sh/) の [Backend Developer](https://roadmap.sh/backend) を基にサンプルコードを用意してハンズオンを実施
+- Twelve Factor App にのっとったアプリケーションの修正
+  - 成果物を一つにし、設定を外部注入できるようにする
+  - ログを標準出力に出す
 
-- [MongoDB のハンズオン, MongoDB * Spring のサンプル](https://github.com/kiyotakeshi/spring-mongo)
+- ECS on Fargate(Task, Service)の構築
 
-- [jwt を使用した認証、認可のサンプル](https://github.com/kiyotakeshi/jwt-authentication)
+- GitHub Actions を使用した CI/CD の構築
 
-- [jwt を使用した認証、認可のサンプル2](https://github.com/KiyotaTakeshi/spring-security-postgres)
+### Amazon Linux2 への移行作業
 
-- [Java17 * Basic認証のサンプル](https://github.com/KiyotaTakeshi/basic-authentication-java17)
+- 既存サーバーの調査と移行後の動作の確認
 
-- [Bcypt Encoder のハンズオン](https://github.com/kiyotakeshi/spring-security-encoder-playground)
+### サーバーレスアプリケーションの動作基盤(Lambda,API Gateway)の構築
 
-- [Keycloak を使用した OIDC のサンプル](https://github.com/kiyotakeshi/keycloak-resource-server)
+- Terraform, Bref, Serverless Framework を使用
 
-- [Spring * Redis](https://github.com/kiyotakeshi/spring-redis-playground)
+- チーム内で Terraform の知見を共有し、単一障害点になることを回避
 
-- [Spring * Redis * RDB * Testcontainers](https://github.com/kiyotakeshi/spring-rdb-redis-testcontainers)
+### 複数コンテナの動作基盤(Elastic Beanstalk)を構築
 
-- [Spring * Kafka によるイベント駆動型アーキテクチャのサンプル](https://github.com/kiyotakeshi/kafka-spring-sample)
+- Terraform を使用
 
-- [Elasticsearch のハンズオン](https://github.com/KiyotaTakeshi/es-sample)
+- Amazon Linux2 Docker platform(旧 Multicontainer Docker platform) を構築
 
-### Ruby(3.1系),Rails(7系) を使用した json を返す API サーバの新規開発
+### Spring MVC を使用した応募審査システムの機能追加
 
-- Web API のエンドポイントの設計、OpenAPI を使用したエンドポイントの記載
+- エンドポイントの追加開発
 
-- app.diagrams.net(旧 draw.io)を使用した、データベースの設計、ER図の作成
+### Ansibleを使用した Dev,Stg 環境の構築(半年)
 
-### 既存システムの決済サービスのリプレイスに関する開発
+- Itamae で管理されているdev環境を Ansible に置換
 
-- Spring Boot(2系)のアプリケーションで使用している決済代行会社のサービス終了に伴うリプレイス
+- Stg環境のサーバ構築(Prometheus,Grafanaによる新規監視)
 
-- FTP サーバーを使用したバッチ処理のテストコードを記載([mina-sshd](https://github.com/apache/mina-sshd)を使用)
+- Redis の負荷試験、性能調査を実施
 
-### 書類を管理システムの機能追加
+### 大規模オンプレ現場でハードウェアの運用保守、NW機器(FW,LB)の設定変更(1年)
 
-- Spring Boot(2系)のアプリケーション
+- Jenkinsジョブにてファームウェアの適用(PowerCLIスクリプトを展開)
 
-- 電子帳簿保存法の改正に伴い、書類の履歴やファイル名を検索できるように
+- 通信要件に応じたFWの穴あけ、LBのVIP設定
 
-### WordPress で管理していたサイトを CloudFront * S3 による静的配信に移管
+- yamlで記載されGit管理されたping監視の設定を変更
 
-- terraform で構築
+- Confluenceに通信要件の対応に関する社内ルールのドキュメントを整備
+
+</details>
 
 ## 保有資格
 
@@ -155,37 +152,3 @@
 - LinaC level 1
 
 - TOEIC 720点
-
-## ポートフォリオ
-
-### [Todo アプリケーション](https://github.com/kiyotakeshi/todo-monolithic)
-
-- テストコードを元に、 [停止中: API仕様書](https://www.bullstechnology.com/api) を自動生成する仕組みである、 RESTDocs を使用したバックエンド実装
-
-- ES6 の表現で記述した JS により fetch することでバックエンドのAPIをコールする仕組みを実装
-
-- これらをコンテナ化に対応した状態でローカル開発
-
-- git の tag の push に反応して GitHub Actions による自動ビルドと jar の生成を実行
-
-- フロントとバックエンドを分離したもの
-    - [Front リポジトリ](https://github.com/kiyotakeshi/todo-ui)
-    - [Backend リポジトリ](https://github.com/kiyotakeshi/todo-api)
-
-- [terraform を使用した AWS デプロイ](https://github.com/kiyotakeshi/todo-aws)
-
-- [terraform を使用した Vultr デプロイ](https://github.com/kiyotakeshi/todo-vultr)
-    - AWSだと個人利用としてはコストが割高なため
-    - Vultr は海外VPS でありながら東京リージョンがある
-
-### [Rails で API作成](https://github.com/kiyotakeshi/todo-monolithic)
-
-- [app.diagrams.net(旧 draw.io)を使用した、データベースの設計、ER図の作成](https://github.com/kiyotakeshi/library-ruby/blob/main/docs/er.drawio.png)
-
-- [OpenAPI で API 定義を記載](https://github.com/kiyotakeshi/library-ruby/blob/main/docs/openapi.yaml)
-
-- [RSpec を使用したテスト記載](https://github.com/kiyotakeshi/library-ruby/tree/main/spec)
-
-## 触れたことのある技術
-
-- [StackShare](https://stackshare.io/kiyotakeshi/following) を参照
